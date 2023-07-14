@@ -214,7 +214,7 @@ class NeumorphicThemeData {
   }) {
     return new NeumorphicThemeData(
       baseColor: baseColor ?? this.baseColor,
-      textTheme: textTheme ?? this.textTheme,
+      // textTheme: textTheme ?? this.textTheme,
       iconTheme: iconTheme ?? this.iconTheme,
       buttonStyle: buttonStyle ?? this.buttonStyle,
       boxShape: boxShape ?? this.boxShape,
@@ -254,7 +254,7 @@ class NeumorphicThemeData {
       shadowLightColor: other.shadowLightColor,
       shadowDarkColorEmboss: other.shadowDarkColorEmboss,
       shadowLightColorEmboss: other.shadowLightColorEmboss,
-      textTheme: other.textTheme,
+      // textTheme: other.textTheme,
       iconTheme: other.iconTheme,
       buttonStyle: other.buttonStyle,
       appBarTheme: other.appBarTheme,
